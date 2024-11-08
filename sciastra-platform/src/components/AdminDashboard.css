@@ -1,0 +1,67 @@
+.admin-dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1a1a2e; /* Dashboard background */
+    color: #ffffff;
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.dashboard-title {
+    font-size: 1.8rem;
+    color: #e94560; /* Accent color */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.course-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.course-input, .course-textarea {
+    background-color: #25253a;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    transition: background-color 0.3s;
+}
+
+.course-input::placeholder, .course-textarea::placeholder {
+    color: #a3a3b5;
+}
+
+.course-input:focus, .course-textarea:focus {
+    outline: none;
+    background-color: #333356;
+}
+
+.course-textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.course-button {
+    background-color: #e94560;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.course-button:hover {
+    background-color: #f0627d; /* Slightly lighter shade on hover */
+}

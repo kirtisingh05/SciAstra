@@ -1,0 +1,66 @@
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f4f4f9; /* Light background for contrast */
+}
+
+.course-card {
+    background-color: #1a1a2e; /* Dark background for card */
+    color: #ffffff;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.course-card:hover {
+    transform: scale(1.05);
+}
+
+.course-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.course-title {
+    font-size: 1.5rem;
+    color: #e94560; /* SciAstra-like accent color */
+    margin: 10px 0;
+}
+
+.course-description {
+    font-size: 1rem;
+    padding: 0 15px;
+    color: #d1d1e9;
+}
+
+.course-price {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #ffffff;
+    margin: 10px 0;
+}
+
+.enroll-button {
+    background-color: #e94560;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    transition: background-color 0.3s;
+}
+
+.enroll-button:hover {
+    background-color: #f0627d; /* Slightly lighter accent color on hover */
+}

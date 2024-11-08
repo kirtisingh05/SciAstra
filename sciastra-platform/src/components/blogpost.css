@@ -1,0 +1,33 @@
+.blog-post {
+    background-color: #1a1a2e; /* Dark background color */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #ffffff; /* White text for contrast */
+    overflow: hidden;
+}
+
+.blog-image {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.blog-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #e94560; /* SciAstra-like accent color */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.blog-content {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #d1d1e9; /* Light gray for readability */
+    text-align: justify;
+}

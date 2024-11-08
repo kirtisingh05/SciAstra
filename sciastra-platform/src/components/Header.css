@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #121212;
+}
+
+.header h1 {
+    font-size: 1.8rem;
+    color: #ffdd57;
+}
+
+.header nav a {
+    margin: 0 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.header .login-btn {
+    padding: 0.5rem 1.5rem;
+    background: linear-gradient(45deg, #7b2ff7, #f107a3);
+    border: none;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
